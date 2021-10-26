@@ -3,9 +3,11 @@ package com.myweb.springboot.config.auth.dto;
 import com.myweb.springboot.domain.user.Role;
 import com.myweb.springboot.domain.user.User;
 import lombok.Builder;
+import lombok.Getter;
 
 import java.util.Map;
 
+@Getter
 public class OAuthAttributes {
 
     private Map<String, Object> attributes;
