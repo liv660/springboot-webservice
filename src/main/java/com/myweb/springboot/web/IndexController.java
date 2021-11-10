@@ -25,7 +25,8 @@ public class IndexController {
         model.addAttribute("posts", postsService.findAllDesc());
 
         if(user != null) {
-            model.addAttribute("userName", user.getName());
+            //윈도우 환경변수 issue : userName -> loginName 으로 변경
+            model.addAttribute("loginName", user.getName());
         }
         return "index";
     }
