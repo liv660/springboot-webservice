@@ -1,2 +1,0 @@
-com/myweb/springboot/Application.java
- com.myweb.springboot.Application
